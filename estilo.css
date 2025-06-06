@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+}
+h1{
+    background-color: #003a40;
+    color: white;
+    text-align: center;
+}
+
+.caja{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+    border: #003a40;
+    height: 40px;
+}
+
+h3{
+    color: #003a40;
+}
