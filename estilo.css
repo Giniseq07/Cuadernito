@@ -1,24 +1,51 @@
-body{
-    background-color: rgb(255, 255, 255);
+header h1.tienda {
+  background-color: #003a40;
+  color: white;
 }
-h2{
-    text-align: center;
+header h1 {
+  background-color: #003a40;
+  color: white;
+  text-align: center;
 }
-h1{
-    background-color: #003a40;
-    color: white;
-    text-align: center;
+header h2.tienda {
+  background-color: #003a40;
+  color: white;
 }
-
-.caja{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #d9d9d9;
-    border: #003a40;
-    height: 40px;
+header h2 {
+  color: #003a40;
+  text-align: center;
 }
-
-h3{
-    color: #003a40;
+header h3 {
+  color: #003a40;
 }
+header nav div.caja {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  color: white;
+  height: 40px;
+}
+header nav div.img {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+header nav div.cuadernosv {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+header nav div.cuadernosv2 {
+  display: grid;
+  columns: 300px 300px 300px 300px 300px;
+}
+header nav div {
+  color: #003a40;
+}
+header nav div.img {
+  border: 10px;
+}
+header nav.img {
+  display: grid;
+  grid-template-columns: 25% 25%;
+}
+/*# sourceMappingURL=estilo.css.map */
